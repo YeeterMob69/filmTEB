@@ -1,3 +1,18 @@
+body{
+    font-family: Arial;
+    background-color: aliceblue;
+    padding: 40px 0px;
+    border-radius: 10%;
+}
+
+section,
+header{
+    padding: 10px 60px 20px 60px;
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+}
+
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
@@ -6,3 +21,4 @@ table, th, td{
 th, td{
     padding: 10px;
 }
+
