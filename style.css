@@ -13,14 +13,25 @@ header{
     margin: 0 auto;
 }
 
-
 h1{
     display: inline;
+    font-size: 30px;
+}
+
+.imie{
+    border: 2px dashed black;
 }
 
 table, th, td{
-    border: 1px solid black;
+    border: 2px solid black;
     border-collapse: collapse;
+}
+
+table.imie{
+    border-top: dotted;
+    border-bottom: dotted;
+    border-left: dotted;
+    border-right: dotted;
 }
 
 th, td{
@@ -31,3 +42,56 @@ th, td{
     width: 100px;
     height: 100px;
 }
+
+.info td{
+    text-align: center;
+}
+.krotki-opis{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dlugi-opis{
+    line-height: 1.5;
+}
+
+dl > dt{
+    font-style: italic;
+}
+
+h3{
+    text-shadow: 1px 1px;
+}
+
+a{
+    color:black;
+}
+
+a:hover{
+    color:gray;
+}
+
+a:visited{
+    color: green;
+}
+
+a:active{
+    color:purple;
+}
+
+a:link{
+    color:hotpink;
+}
+
+h2{
+    text-transform: uppercase;
+    quotes: auto;
+}
+
+.tytuł-kolor{
+    color:red;
+}
+
+a.yt {
+    font-weight: bold;
+}
+
