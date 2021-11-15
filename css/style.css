@@ -27,12 +27,6 @@ table, th, td{
     border-collapse: collapse;
 }
 
-table.imie{
-    border-top: dotted;
-    border-bottom: dotted;
-    border-left: dotted;
-    border-right: dotted;
-}
 
 th, td{
     padding: 10px;
@@ -71,7 +65,7 @@ a:hover{
 }
 
 a:visited{
-    color: green;
+    color: deeppink;
 }
 
 a:active{
