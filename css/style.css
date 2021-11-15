@@ -56,26 +56,6 @@ h3{
     text-shadow: 1px 1px;
 }
 
-a{
-    color:black;
-}
-
-a:hover{
-    color:gray;
-}
-
-a:visited{
-    color: deeppink;
-}
-
-a:active{
-    color:purple;
-}
-
-a:link{
-    color:hotpink;
-}
-
 h2{
     text-transform: uppercase;
     quotes: auto;
@@ -89,3 +69,22 @@ a.yt {
     font-weight: bold;
 }
 
+a:hover{
+    color:hotpink;
+}
+/* a:visited{
+    color: deeppink;
+}
+a:active{
+    color:blue;
+}
+a:link{
+    color:black;
+}
+.main-page:hover{
+    color: red;
+} */
+.teb-foto{
+    width: 140px;
+    height: 100px;
+}
